@@ -334,7 +334,8 @@ public class TrackLogger extends Activity {
 				sendBroadcast(intent);
 				((GpsStatusRecord) findViewById(R.id.gpsStatus)).manageRecordingIndicator(false);
 				finish();
-			}		
+			}	
+			new GpxToStorageTask(TrackLogger.this, currentTrackId).execute();	
 			break;
 		case R.id.tracklogger_menu_settings:
 			// Start settings activity

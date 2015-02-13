@@ -39,7 +39,7 @@ public class OSMTracker {
 		
 		// Default values
 		public final static String VAL_STORAGE_DIR = "/followsheep";
-		public final static String VAL_USER_NAME = "Neelkant Mama";
+		public final static String VAL_USER_NAME = "Shepherd";
 		public final static String VAL_VOICEREC_DURATION = "30";
 		public final static String VAL_UI_THEME = "me.guillaumin.android.osmtracker:style/DefaultTheme";
 		public final static boolean VAL_GPS_CHECKSTARTUP = true;

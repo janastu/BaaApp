@@ -9,7 +9,7 @@
 	    android:title="@string/prefs_osm_clear_oauth_data" android:summary="@string/prefs_osm_clear_oauth_data_summary"
 	    android:dialogMessage="@string/prefs_osm_clear_oauth_data_dialog" android:dialogIcon="@android:drawable/ic_dialog_alert" />-->
 	<EditTextPreference android:key="user_name"
-			android:defaultValue="Neelkant Mama" android:title="@string/prefs_user_name" android:dialogMessage="@string/prefs_user_name_hint" />
+			android:defaultValue="Shepherd" android:title="@string/prefs_user_name" android:dialogMessage="@string/prefs_user_name_hint" />
 	<PreferenceCategory android:title="@string/prefs_gps">
 		<Preference android:summary="@string/prefs_gps_os_settings_summary"
 			android:title="@string/prefs_gps_os_settings" android:key="gps.ossettings"></Preference>
